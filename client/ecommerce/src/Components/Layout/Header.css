@@ -1,0 +1,41 @@
+.navbar {
+  padding: 10px;
+  background: #535151;
+  border: none;
+}
+
+.navbar .nav-link {
+  color: #fff;
+  font-size: 14px;
+  margin: 0 10px;
+}
+
+.navbar .navbar-brand {
+  color: #fff !important;
+}
+.nav-container {
+  margin: 0;
+}
+
+.navbar .nav-link:hover,
+.navbar .navbar-brand:hover {
+  color: #ffc107 !important;
+}
+
+.navbar .dropdown-menu {
+  background-color: #535151;
+  border: none;
+}
+
+.navbar .dropdown-item {
+  color: white !important;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #ffc107;
+  color: #535151 !important;
+}
+
+.navbar .dropdown-item:hover .nav-link {
+  color: #ffc107 !important;
+  }

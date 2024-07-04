@@ -1,0 +1,152 @@
+.containers {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: auto;
+  margin-top: 50px;
+  background: #fff;
+  padding-bottom: 20px;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 9px;
+  width: 100%;
+  margin-top: 30px;
+}
+.text {
+  font-size: 48px;
+  font-weight: 700;
+  color: #3c009d;
+}
+.underline {
+  width: 71px;
+  height: 6px;
+  border-radius: 10px;
+  background: #3c009d;
+}
+.inputs {
+  margin-top: 55px;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+.input {
+  display: flex;
+  align-items: center;
+  margin: auto;
+  width: 480px;
+  height: 80px;
+  border-radius: 6px;
+  background: #eaeaea;
+}
+.input img {
+  margin: 0 30px;
+}
+.input input {
+  height: 50px;
+  width: 400px;
+  background: transparent;
+  border: none;
+  outline: none;
+  color: #797979;
+  font-size: 19px;
+}
+.submit-container {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin: 25px auto;
+}
+.submit {
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+  width: 220px;
+  height: 59px;
+  color: #fff;
+  background: #4c00b4;
+  border-radius: 50px;
+  border: none;
+  font-size: 19px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.text-line {
+  color: #797979;
+  font-weight: 600;
+}
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 6px;
+}
+.link {
+  color: #3c009d;
+  font-weight: 600;
+  text-decoration: none;
+}
+/* classes */
+.register-container {
+  /* background-image: url("../assets/signup-bg.jpg"); */
+  min-height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.register-form {
+  background-color: rgba(0, 0, 0, 0.4);
+  /* backdrop-filter: blur(1px); */
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 50%;
+  max-width: 450px;
+  gap: 1rem;
+  border-radius: 8px;
+}
+
+.input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-error {
+  color: rgb(251, 50, 50);
+  font-size: 12px;
+  margin: 0;
+}
+.form-input {
+  border-radius: 8px;
+  height: 50px;
+  width: 100%;
+  padding: 1rem;
+}
+
+.form-btn {
+  width: 100%;
+  background-color: brown;
+  border-radius: 8px;
+  height: 60px;
+  color: white;
+  margin: 0.5rem 0;
+}
+
+.form-btn:hover {
+  opacity: 0.85;
+}
+
+/* For Tablets (768px to 1023px) */
+@media only screen and (max-width: 768px) {
+  .register-form {
+    width: 95%;
+  }
+}

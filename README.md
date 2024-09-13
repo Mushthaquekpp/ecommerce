@@ -37,8 +37,8 @@ Ensure you have the following installed:
 To clone the repository, run:
 
 ```bash
-git clone https://github.com/your-username/your-repo-name.git
-cd your-repo-name
+git clone https://github.com/Mushthaquekpp/ecommerce
+cd ecommerce
 ```
 
 ## Setting Up the Backend
@@ -59,7 +59,7 @@ cd your-repo-name
 
    ```env
    MONGO_URL=mongodb://localhost:27017/novanectar
-   PORT=8000
+   PORT=8080
    ```
 
 4. Start the Express server:

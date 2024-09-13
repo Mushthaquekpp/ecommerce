@@ -1,0 +1,52 @@
+.custom-radio .form-check-input:checked {
+  background-color: #535151;
+  border-color: #535151;
+}
+
+.page-title {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.filter-section {
+  margin-top: 20px;
+  margin-left: auto;
+}
+
+.product-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product-card {
+  width: 15rem;
+  margin: 10px;
+  flex: 0 1 15rem;
+  height: 100%;
+}
+
+.product-link {
+  text-decoration: none;
+  color: inherit;
+}
+.more-link {
+  color: blue;
+  margin: 1rem;
+}
+.image-container {
+  height: 100%; /* Set the height of the image container */
+  overflow: hidden; /* Hide overflow to ensure the image fits within the container */
+  max-height: 320px;
+}
+
+.product-image {
+  width: 100%; /* Ensure the image fills the container */
+  height: 100%; /* Maintain aspect ratio */
+}
+
+/* Hide when screen width is greater than 992px */
+@media (min-width: 992px) {
+  .filter-section {
+    margin-left: 100px;
+  }
+}

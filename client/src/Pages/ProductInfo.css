@@ -1,0 +1,15 @@
+.movie-details-card {
+  flex-direction: row;
+  border: none;
+}
+
+.movie-details-img {
+  height: auto;
+  object-fit: cover;
+}
+
+@media (max-width: 768px) {
+  .movie-details-card {
+    flex-direction: column;
+  }
+}
